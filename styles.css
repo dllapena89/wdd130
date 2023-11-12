@@ -230,7 +230,7 @@ nav {
     z-index: -1;
 }
 
-.card-img, .mountains {
+#card-img, .mountains {
     width: 100%;
 }
 
@@ -337,4 +337,31 @@ footer {
     footer {
         margin-top: 25px;
     }
+}
+
+/* Page 2 Content */
+
+body{
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh; 
+}
+
+.river-1, .river-2, .river-3 {
+    margin: 150px auto;
+    width: 95%;
+}
+
+.river1-img, .river3-img {
+    max-width: 900px;
+    float: left;
+    border: 3px solid #1982C4;
+    border-radius: 10px;
+}
+
+.river2-img {
+    max-width: 900px;
+    float: right;
+    border: 3px solid #1982C4;
+    border-radius: 10px;
 }
